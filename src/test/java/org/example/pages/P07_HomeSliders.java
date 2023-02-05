@@ -7,7 +7,7 @@ import java.util.List;
 
 import static org.example.stepDefs.Hooks.driver;
 
-public class P07_HomeSliders_WebElements {
+public class P07_HomeSliders {
 
     public List<WebElement> slider() {
 

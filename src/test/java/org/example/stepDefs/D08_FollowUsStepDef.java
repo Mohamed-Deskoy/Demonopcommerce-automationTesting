@@ -2,16 +2,16 @@ package org.example.stepDefs;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.example.pages.P08_FollowUs_WebElements;
+import org.example.pages.P08_FollowUs;
 import org.testng.Assert;
 
 import java.util.ArrayList;
 
 import static org.example.stepDefs.Hooks.driver;
 
-public class D08_FollowUs_StepDefinitions {
+public class D08_FollowUsStepDef {
 
-    P08_FollowUs_WebElements followus = new P08_FollowUs_WebElements();
+    P08_FollowUs followus = new P08_FollowUs();
 
 
     @When("user clicks on facebook link")
@@ -58,7 +58,7 @@ public class D08_FollowUs_StepDefinitions {
 
 
     @When("user clicks on rss link")
-    public void click_rss() {
+    public void clickRss() {
 
         followus.rss().click();
     }
@@ -78,7 +78,7 @@ public class D08_FollowUs_StepDefinitions {
 
 
     @When("user clicks on youtube link")
-    public void click_youtube() {
+    public void clickYoutube() {
 
         followus.youtube().click();
     }

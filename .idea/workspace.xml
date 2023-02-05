@@ -5,45 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3be25933-f004-49aa-b1e3-9d0f3d02e628" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F01_Register.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F02_Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F03_Reset_Password.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F04_Product_Search.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F05_Switch_Currencies.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F06_HoverOnCategories.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F07_Home_Sliders.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F08_FollowUs.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F09_Wishlist.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P01_register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P02_Login_WebElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P03_ResetPassword_WebElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P04_ProductSearch_WebElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P05_SwitchCurrencies_WebElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P06_HoverCategories_WebElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P07_HomeSliders_WebElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P08_FollowUs_WebElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P09_Wishlist_WebElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D01_registerStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D02_Login_StepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D03_ResetPassword_StepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D04_ProductSearch_StepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D05_SwitchCurrencies_StepDifinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D06_HoverOnCategories_StepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D07_HomeSliders_StepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D08_FollowUs_StepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D09_Wishlist_StepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testRunner/runners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F03_Reset_Password.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F03_ResetPassword.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F04_Product_Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F04_ProductSearch.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F05_Switch_Currencies.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F05_SwitchCurrencies.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F06_HoverOnCategories.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F06_HoverOnCategories.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F07_Home_Sliders.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F07_HomeSliders.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F08_FollowUs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F08_FollowUs.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F09_Wishlist.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F09_Wishlist.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P02_Login_WebElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P02_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P03_ResetPassword_WebElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P03_ResetPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P04_ProductSearch_WebElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P04_ProductSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P05_SwitchCurrencies_WebElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P05_SwitchCurrencies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P06_HoverCategories_WebElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P06_HoverCategories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P07_HomeSliders_WebElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P07_HomeSliders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P08_FollowUs_WebElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P08_FollowUs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P09_Wishlist_WebElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P09_Wishlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D02_Login_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D02_LoginStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D03_ResetPassword_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D03_ResetPasswordStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D04_ProductSearch_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D04_ProductSearchStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D05_SwitchCurrencies_StepDifinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D05_SwitchCurrenciesStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D06_HoverOnCategories_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D06_HoverOnCategoriesStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D07_HomeSliders_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D07_HomeSlidersStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D08_FollowUs_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D08_FollowUsStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D09_Wishlist_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D09_WishlistStepDef.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,16 +69,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/intellij/DemonopcommerceDec/src/main/resources/features",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/intellij/DemonopcommerceDec/src/main/resources/features&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\intellij\DemonopcommerceDec\src\main\resources\features" />

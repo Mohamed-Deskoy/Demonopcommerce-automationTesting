@@ -3,7 +3,7 @@ package org.example.stepDefs;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.example.pages.P09_Wishlist_WebElements;
+import org.example.pages.P09_Wishlist;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -14,9 +14,9 @@ import java.time.Duration;
 
 import static org.example.stepDefs.Hooks.driver;
 
-public class D09_Wishlist_StepDefinitions {
+public class D09_WishlistStepDef {
 
-    P09_Wishlist_WebElements wishlist = new P09_Wishlist_WebElements();
+    P09_Wishlist wishlist = new P09_Wishlist();
 
 
     @When("user clicks on the wishlist button")
@@ -52,7 +52,7 @@ public class D09_Wishlist_StepDefinitions {
 
 
     @Then("product is existed in the wishlist")
-    public void product_exists(){
+    public void productExists(){
        String quantity = driver.findElement(By.className("qty-input")).getAttribute("Value");
        Assert.assertTrue(true, quantity);
     }

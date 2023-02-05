@@ -2,7 +2,7 @@ package org.example.stepDefs;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.example.pages.P06_HoverCategories_WebElements;
+import org.example.pages.P06_HoverCategories;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 
@@ -10,9 +10,9 @@ import java.util.Random;
 
 import static org.example.stepDefs.Hooks.driver;
 
-public class D06_HoverOnCategories_StepDefinitions {
+public class D06_HoverOnCategoriesStepDef {
 
-    P06_HoverCategories_WebElements hovercategorie = new P06_HoverCategories_WebElements();
+    P06_HoverCategories hovercategorie = new P06_HoverCategories();
 
     @When("user select random one of the three main categories")
     public void categorySelection(){

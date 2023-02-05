@@ -7,9 +7,13 @@ import java.util.List;
 
 import static org.example.stepDefs.Hooks.driver;
 
-public class P06_HoverCategories_WebElements {
+public class P06_HoverCategories {
+    public List<WebElement> subCategories() {
 
+        List<WebElement> subCategories = driver.findElements(By.cssSelector("ul[class=\"top-menu notmobile\"]>li>ul[class=\"sublist first-level\"]>li>a[href]"));
 
+        return subCategories;
+    }
     public List<WebElement> categories() {
 
         List<WebElement> categories = driver.findElements(By.cssSelector("ul[class=\"top-menu notmobile\"]>li>a[href]"));
@@ -18,12 +22,7 @@ public class P06_HoverCategories_WebElements {
     }
 
 
-    public List<WebElement> subCategories() {
 
-        List<WebElement> subCategories = driver.findElements(By.cssSelector("ul[class=\"top-menu notmobile\"]>li>ul[class=\"sublist first-level\"]>li>a[href]"));
-
-        return subCategories;
-    }
 
     public WebElement desktop() {
 
@@ -52,6 +51,16 @@ public class P06_HoverCategories_WebElements {
 
     }
 
+    public WebElement accessories() {
+
+        return driver.findElement(By.cssSelector("ul[class=\"top-menu notmobile\"]>li>ul[class=\"sublist first-level\"]>li>a[href=\"/accessories\"]"));
+    }
+
+    public WebElement subPage_Title() {
+
+        return driver.findElement(By.cssSelector("div[class=\"page-title\"]>h1"));
+    }
+
     public WebElement others() {
 
         return driver.findElement(By.cssSelector("ul[class=\"top-menu notmobile\"]>li>ul[class=\"sublist first-level\"]>li>a[href=\"/others\"]"));
@@ -69,16 +78,5 @@ public class P06_HoverCategories_WebElements {
 
         return driver.findElement(By.cssSelector("ul[class=\"top-menu notmobile\"]>li>ul[class=\"sublist first-level\"]>li>a[href=\"/clothing\"]"));
     }
-
-    public WebElement accessories() {
-
-        return driver.findElement(By.cssSelector("ul[class=\"top-menu notmobile\"]>li>ul[class=\"sublist first-level\"]>li>a[href=\"/accessories\"]"));
-    }
-
-    public WebElement subPage_Title() {
-
-        return driver.findElement(By.cssSelector("div[class=\"page-title\"]>h1"));
-    }
-
 
 }

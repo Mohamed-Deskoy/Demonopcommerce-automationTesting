@@ -7,8 +7,14 @@ import java.util.List;
 
 import static org.example.stepDefs.Hooks.driver;
 
-public class P04_ProductSearch_WebElement {
+public class P04_ProductSearch {
 
+    public List<WebElement> serialNumbersList(){
+
+        List<WebElement> serialNumber = driver.findElements(By.cssSelector("div[class=\"sku\"] > span[class=\"value\"]"));
+
+        return serialNumber;
+    }
 
     public List<WebElement> productsNamesList(){
 
@@ -16,12 +22,8 @@ public class P04_ProductSearch_WebElement {
 
         return productTitle;
     }
-
-    public List<WebElement> serialNumbersList(){
-
-        List<WebElement> serialNumber = driver.findElements(By.cssSelector("div[class=\"sku\"] > span[class=\"value\"]"));
-
-        return serialNumber;
+    public WebElement product_found(){
+        return driver.findElement(By.cssSelector("h2[class=\"product-title\"] > a[href=\"/lenovo-thinkpad-x1-carbon-laptop\"]"));
     }
 
     public WebElement search_Box(){
@@ -32,7 +34,4 @@ public class P04_ProductSearch_WebElement {
         return driver.findElement(By.cssSelector("button[type=\"submit\"]"));
     }
 
-    public WebElement product_found(){
-        return driver.findElement(By.cssSelector("h2[class=\"product-title\"] > a[href=\"/lenovo-thinkpad-x1-carbon-laptop\"]"));
-    }
 }

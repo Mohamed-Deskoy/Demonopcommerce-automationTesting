@@ -1,6 +1,5 @@
 @smoke
 Feature: F04_Product Search | user search for product
-
 Background: user enters "MohamedAhmed@gmail.com" and "123456"
 
   Scenario Outline: Logged user could search using product name
@@ -12,7 +11,6 @@ Background: user enters "MohamedAhmed@gmail.com" and "123456"
     |    book   |
     |   laptop  |
     |    nike   |
-
 
   Scenario Outline: Logged user could search for product using sku
     When user click on search box and write "<serialnumber>"
