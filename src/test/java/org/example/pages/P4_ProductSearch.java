@@ -7,7 +7,7 @@ import java.util.List;
 
 import static org.example.stepDefs.Hooks.driver;
 
-public class P04_ProductSearch {
+public class P4_ProductSearch {
 
     public List<WebElement> serialNumbersList(){
 
@@ -18,19 +18,19 @@ public class P04_ProductSearch {
 
     public List<WebElement> productsNamesList(){
 
-        List<WebElement> productTitle = driver.findElements(By.className("product-title"));
+        List<WebElement> elements = driver.findElements(By.className("product-title"));
 
-        return productTitle;
+        return elements;
     }
-    public WebElement product_found(){
+    public WebElement productFound(){
         return driver.findElement(By.cssSelector("h2[class=\"product-title\"] > a[href=\"/lenovo-thinkpad-x1-carbon-laptop\"]"));
     }
 
-    public WebElement search_Box(){
+    public WebElement searchBox(){
        return driver.findElement(By.id("small-searchterms"));
     }
 
-    public WebElement search_Button(){
+    public WebElement searchButton(){
         return driver.findElement(By.cssSelector("button[type=\"submit\"]"));
     }
 

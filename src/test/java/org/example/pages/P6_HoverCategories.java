@@ -7,21 +7,19 @@ import java.util.List;
 
 import static org.example.stepDefs.Hooks.driver;
 
-public class P06_HoverCategories {
+public class P6_HoverCategories {
     public List<WebElement> subCategories() {
 
-        List<WebElement> subCategories = driver.findElements(By.cssSelector("ul[class=\"top-menu notmobile\"]>li>ul[class=\"sublist first-level\"]>li>a[href]"));
-
-        return subCategories;
+        List<WebElement> elements = driver.findElements(By.cssSelector("ul[class=\"top-menu notmobile\"]>li>ul[class=\"sublist first-level\"]>li>a[href]"));
+        return elements;
     }
+
     public List<WebElement> categories() {
 
-        List<WebElement> categories = driver.findElements(By.cssSelector("ul[class=\"top-menu notmobile\"]>li>a[href]"));
+        List<WebElement> elements = driver.findElements(By.cssSelector("ul[class=\"top-menu notmobile\"]>li>a[href]"));
 
-        return categories;
+        return elements;
     }
-
-
 
 
     public WebElement desktop() {

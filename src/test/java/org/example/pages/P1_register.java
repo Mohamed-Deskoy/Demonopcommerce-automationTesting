@@ -4,10 +4,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class P01_register {
+public class P1_register {
     WebDriver driver =null;
 
-    public P01_register(WebDriver driver){
+    public P1_register(WebDriver driver){
         this.driver = driver;
     }
 

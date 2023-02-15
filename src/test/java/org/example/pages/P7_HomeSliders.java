@@ -7,11 +7,11 @@ import java.util.List;
 
 import static org.example.stepDefs.Hooks.driver;
 
-public class P07_HomeSliders {
+public class P7_HomeSliders {
 
     public List<WebElement> slider() {
 
-        List<WebElement> sliders = driver.findElements(By.cssSelector("div[id=\"nivo-slider\"]>a[href=\"http://demo.nopcommerce.com/\"]"));
-        return sliders;
+        List<WebElement> elements = driver.findElements(By.cssSelector("div[id=\"nivo-slider\"]>a[href=\"http://demo.nopcommerce.com/\"]"));
+        return elements;
     }
 }

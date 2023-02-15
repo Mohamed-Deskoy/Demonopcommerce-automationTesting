@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 
 import static org.example.stepDefs.Hooks.driver;
 
-public class P03_ResetPassword {
+public class P3_ResetPassword {
     public WebElement email(){
         return driver.findElement(By.id("Email"));
     }
